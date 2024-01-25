@@ -191,5 +191,18 @@ footer a{
     background-image: url(../images/linkedin-nb1.jpg);
 }
 .linkedin a:hover{
+    background-image: url(../images/linkedin-survol1.jpg);
+}
 
+.pinterest a{
+    background-image: url(../images/pinterest-nb1.jpg);
+}
+.pinterest a:hover{
+    background-image: url(../images/pinterest-survol1.jpg);
+}
+
+footer ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
 }
