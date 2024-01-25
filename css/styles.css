@@ -206,3 +206,11 @@ footer ul{
     display: flex;
     gap: 20px;
 }
+
+/*------------------------------------------
+Aide stylistique
+------------------------------------------*/
+
+.conteneur-transport-invisible{
+    display: none;
+}
