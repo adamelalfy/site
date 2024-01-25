@@ -49,3 +49,86 @@ header div{
     justify-content: space-between;
     align-items: center;
 }
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+header img{
+    margin-right: 10px;
+}
+
+header h1{
+    font-size: 36px;
+    font-weight: bold;
+    color: white;
+}
+
+header ul{
+    display: flex;
+    justify-content: flex-end;
+    gap: 40px;
+    list-style: none;
+}
+
+header a{
+    text-decoration: none;
+    color: white;
+}
+
+header a:hover{
+    text-decoration: underline;
+}
+
+/*Bannière*/
+
+.banniere{
+    background-color: #eeeeee;
+}
+
+.banniere .wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 200px;
+
+}
+
+.banniere h2{
+    font-size: 36px;
+    text-align: center;
+    font-weight: 300;
+    letter-spacing: 6px;
+}
+
+/*Contenu principal*/
+
+.titre-section{
+    display: flex;
+    justify-content: space-between;
+
+    align-items: center;
+    height: 60px;
+
+    background-color: #eeeeee;
+
+    margin-bottom: 60px;
+
+    margin-top: 80px;
+
+    border: 1px solid #d0d0d0;
+
+}
+
+.titre-section h2{
+    font-size: 18px;
+    font-weight: 700;
+    margin-left: 20px;
+}
+
+.titre-section img{
+    margin-right: 20px;
+    cursor: pointer;
+}
